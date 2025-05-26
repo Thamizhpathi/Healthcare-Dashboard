@@ -1,0 +1,81 @@
+.upcoming-area {
+  width: 100%;
+  background-color: #f6faff;
+  height: 100vh;
+}
+
+.upcoming-card {
+  width: 93%;
+  display: flex;
+  flex-direction: column;
+  
+  margin: auto;
+}
+.upcoming-heading {
+  color: #37349f;
+  margin: 10px;
+}
+.appointment-area {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 40px;
+}
+.appointment-card {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 120px;
+  background-color: #dde2f9;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.day-style {
+  font-size: 16px;
+  color: #a8b0be;
+  margin: 0px;
+  margin-top: 1.5rem;
+  margin-bottom: 7px;
+}
+.appointment-content {
+  position: absolute;
+  padding: 10px;
+  font-size: 13px;
+  padding-left: 25px;
+}
+.upcoming-icon {
+  position: absolute;
+  right: 1.4rem;
+  top: 1rem;
+}
+
+@media (min-width: 768px) {
+  .upcoming-area {
+    width: 100%;
+    background-color: #f6faff;
+    height: max-content;
+  }
+  .appointment-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.appointment-card {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 75px;
+  background-color: #dde2f9;
+  border-radius: 30px;
+}
+
+.day-style {
+  font-size: 12px;
+  color: #a8b0be;
+  margin: 0px;
+  margin-top: 4px;
+  margin-bottom: 7px;
+}
+}

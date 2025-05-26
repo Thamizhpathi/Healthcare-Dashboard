@@ -1,0 +1,247 @@
+.main-container {
+ 
+  height: max-content;
+  padding: 10px;
+}
+.main-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 50px;
+  color: #37349f;
+  margin: 0;
+  padding: 0;
+}
+.align-input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heading-input {
+  border: none;
+  outline: none;
+  color: #37349f;
+  font-size: 12px;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  
+}
+.humanbody-card {
+  position: relative;
+  background-color: #f6faff;
+  border-radius: 18px;
+  width: 250px;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.humanbody-card > .human-img {
+ position: relative;
+ 
+  
+}
+.details{
+  display: flex;
+  justify-content: end;
+  font-size: 11px;
+  color: #37349f;
+  margin-bottom: 6px;
+}
+.zoom-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  color: #a8b0be;
+}
+.heart-card {
+  position: absolute;
+  height: 28px;
+  width: 80px;
+  background-color: #37349f;
+  border-radius: 8px;
+  top: 4.5rem;
+  right: -2.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leg-card {
+  position: absolute;
+  height: 28px;
+  width: 80px;
+  background-color: #01DFF1;
+  border-radius: 8px;
+  bottom: 6rem;
+  left: -2.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-status {
+  position: absolute;
+  color: white;
+  font-size: 8px;
+}
+
+.leg-status {
+  position: absolute;
+  color: #37349f;
+  font-size: 8px;
+}
+.organs-row {
+  display: flex;
+  flex-direction: column;
+}
+.organs-card {
+  position: relative;
+  width: 120px;
+  height: 95px;
+  border-radius: 18px;
+  background-color: #f6faff;
+  margin: 10px;
+  margin-left: 1rem;
+  margin-right: 1px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.organs-card p {
+  position: absolute;
+  right: 20%;
+}
+
+.organs-card p:nth-of-type(2) {
+  position: absolute;
+  right: 35px;
+  bottom: 20px;
+  color: #a8b0be;
+  font-size: 10px;
+}
+
+.organs-card img {
+  position: absolute;
+  width: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.progress-container {
+  position: absolute;
+  width: 80%;
+  height: 8px;
+  bottom: 1rem;
+  left: 15px;
+  background-color: #e0e0e0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #4caf50; /* Green */
+  width: 0%;
+  border-radius: 10px 0 0 10px;
+  transition: width 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .main-container {
+    padding: 10px 40px;
+   
+  }
+  .main-content {
+  display: flex;
+  justify-content: space-around;
+  
+}
+  .organs-card {
+  position: relative;
+  width: 150px;
+  height: 95px;
+  border-radius: 18px;
+  background-color: #f6faff;
+  margin: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.organs-card p {
+  position: absolute;
+  right: 30%;
+}
+
+  .heart-card {
+  position: absolute;
+  height: 28px;
+  width: 130px;
+  background-color: #37349f;
+  border-radius: 8px;
+  top: 4.5rem;
+  right: -6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.leg-card {
+  position: absolute;
+  height: 28px;
+  width: 130px;
+  background-color: #01DFF1;
+  border-radius: 8px;
+  bottom: 6rem;
+  left: -5.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.heart-status {
+  position: absolute;
+  color: white;
+  font-size: 10px;
+}
+
+.leg-status {
+  position: absolute;
+  color: #37349f;
+  font-size: 10px;
+}
+}
+
+
+
+.scanner-container-leg {
+    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 5.8rem;
+  left:2.8rem;
+
+
+}
+.scanner-container-heart {
+    position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 4rem;
+  right:2.5rem;
+
+
+}
+
+.scanner-frame {
+  width: 30px;
+  height: 40px;
+  border: 1px solid #37349f;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 20px #37349f;
+}
+
+
+

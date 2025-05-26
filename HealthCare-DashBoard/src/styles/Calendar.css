@@ -1,0 +1,187 @@
+.calendar-area {
+  width: 100%;
+  height: max-content;
+  background-color: #f6faff;
+  /* height: max-content; */
+  padding-bottom: 35px;
+  margin-bottom: 2rem;
+}
+.calaender-card {
+  display: flex;
+}
+.calendar-month {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #37349f;
+  padding: 0px 10px 0px 10px;
+  max-height: 40px;
+}
+.calendar-month .arrow-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calender-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  margin-left: 15px;
+  height: 55vh;
+}
+.date-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50px;
+  height: max-content;
+  color: #37349f;
+}
+.day {
+  font-size: 12px;
+}
+.date {
+  margin-top: 0px;
+  font-weight: 600;
+  font-size: large;
+}
+.slot {
+  position: relative;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.bg-blue {
+  background-color: #37349f;
+  color: white;
+  padding: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+}
+
+.bg-liteblue {
+  background-color: #abb0d8;
+
+  color: white;
+  padding: 3px;
+  padding-left: 9px;
+  padding-right: 9px;
+  border-radius: 5px;
+}
+
+.schedule-grid {
+  display: grid;
+  grid-template-columns: 80%;
+  gap: 10%;
+  height: 300px;
+  justify-content: center;
+  margin-top: 12px;
+}
+.left-card {
+  width: 100%;
+  min-height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  background-color: #37349f;
+  color: white;
+  border-radius: 32px;
+  padding: 4px;
+  font-size: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+.right-card {
+  width: 100%;
+  min-height: 120px;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  background-color: #dde2f9;
+  color: white;
+  border-radius: 32px;
+  padding: 4px;
+  font-size: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-heading {
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+
+.icon {
+  position: absolute;
+  right: 1.5rem;
+  top: 0.3rem;
+  font-size: 20px;
+}
+.left-alignment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  padding-left: 12px;
+}
+
+.right-alignment {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  color: black;
+  padding: 5px;
+  padding-left: 25px;
+}
+
+@media (min-width: 768px) {
+  .calendar-area {
+    width: 100%;
+    background-color: #f6faff;
+    height: max-content;
+    padding-bottom: 10px;
+    margin: 0px;
+  }
+  .calender-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-content: center;
+    margin-left: 15px;
+    height: max-content;
+  }
+  .schedule-grid {
+    display: grid;
+    grid-template-columns: 35% 55%;
+    gap: 5%;
+    height: max-content;
+    justify-content: center;
+    margin-top: 0.5rem;
+  }
+  .left-card {
+    width: 100%;
+    min-height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: #37349f;
+    color: white;
+    border-radius: 32px;
+    padding: 4px;
+    font-size: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  .right-card {
+    width: 100%;
+    min-height: 90px;
+    position: relative;
+    display: flex;
+    justify-content: start;
+    background-color: #dde2f9;
+    color: white;
+    border-radius: 32px;
+    padding: 4px;
+    font-size: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
