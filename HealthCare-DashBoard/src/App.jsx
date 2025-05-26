@@ -6,7 +6,8 @@ import { navigationlinks } from "./data/navigationlinks.js";
 import CalendarView from "./components/CalendarView.jsx";
 import ActivityFeed from "./components/ActivityFeed.jsx";
 import UpcomingSchedule from "./components/UpcomingSchedule.jsx";
-
+import { scheduleData, upcommingSchedule } from "./data/Calendardata.js";
+import { appointments } from "./data/UpcomingSchedule";
 function App() {
   return (
     <>
@@ -19,8 +20,8 @@ function App() {
           <ActivityFeed />
         </div>
         <div className="flex-col-container">
-          <CalendarView />
-          <UpcomingSchedule />
+          <CalendarView scheduleData={scheduleData} upcommingSchedule={upcommingSchedule}/>
+          <UpcomingSchedule appointments={appointments}/>
         </div>
       </div>
     </>

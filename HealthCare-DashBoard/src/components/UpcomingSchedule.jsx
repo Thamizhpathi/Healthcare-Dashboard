@@ -1,6 +1,6 @@
 import "../styles/UpcomingSchedule.css";
-import { appointments } from "../data/UpcomingSchedule";
-const UpcomingSchedule = () => {
+
+const UpcomingSchedule = ({appointments}) => {
   return (
     <>
       <div className="upcoming-area">

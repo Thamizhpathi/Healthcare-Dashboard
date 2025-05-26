@@ -1,7 +1,7 @@
 import "../styles/Calendar.css";
 import { ArrowLeft, ArrowRight } from "lucide-react";
-import { scheduleData, upcommingSchedule } from "../data/Calendardata.js";
-const CalendarView = () => {
+
+const CalendarView = ({scheduleData,upcommingSchedule}) => {
   return (
     <>
       <div className="calendar-area">
