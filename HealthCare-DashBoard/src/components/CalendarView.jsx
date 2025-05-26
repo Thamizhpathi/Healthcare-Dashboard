@@ -5,7 +5,7 @@ const CalendarView = () => {
   return (
     <>
       <div className="calendar-area">
-        <div className="calendar-card">
+        <div className="calaender-card">
           <div className="calendar-month">
             <h3>October</h3>
             <div className="arrow-container">

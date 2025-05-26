@@ -12,6 +12,7 @@ function App() {
     <>
       <Header />
       <div className="grid-container">
+        
         <Sidebar links={navigationlinks} />
         <div className="flex-col-container">
           <DashboardOverview />

@@ -1,7 +1,9 @@
 .upcoming-area {
+  display: flex;
+  
   width: 100%;
   background-color: #f6faff;
-  height: 100vh;
+  padding: 15px 0px 15px;
 }
 
 .upcoming-card {
@@ -53,7 +55,37 @@
   .upcoming-area {
     width: 100%;
     background-color: #f6faff;
-    height: max-content;
+    
+  }
+  .appointment-area {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.appointment-card {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  min-height: 75px;
+  background-color: #dde2f9;
+  border-radius: 30px;
+}
+
+.day-style {
+  font-size: 12px;
+  color: #a8b0be;
+  margin: 0px;
+  margin-top: 4px;
+  margin-bottom: 7px;
+}
+}
+@media (min-width: 1024px) {
+  .upcoming-area {
+    width: 100%;
+    background-color: #f6faff;
+    
   }
   .appointment-area {
   display: grid;

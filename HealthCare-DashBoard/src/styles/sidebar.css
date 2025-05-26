@@ -1,9 +1,9 @@
+
 .sidebar {
   display: none;
   flex-direction: column;
   background-color: #F6FAFF;
   width: 90%;
-  max-height: max-content;
   padding-left: 46px;
   color: #a8b0be;
   position: absolute;
@@ -36,32 +36,35 @@
   max-height: max-content;
   align-items: center;
   gap: 12px;
+  width: 90%;
   padding: 0px 8px;
 
   color: #a8b0be;
   cursor: pointer;
 }
 .sidebar-nav-items:hover{
-  background-color:  #37349f;
-  border-radius: 15px;
+  /* background-color:  #dde2f9; */
+  border-radius: 5px;
+  width: 90%;
+  color: aqua;
 }
-.even {
-  display: block;
-}
+
 .last-item {
-  margin-top: 6.5rem;
+  margin-top: 6rem;
 }
 
 @media (min-width: 1024px) {
 .sidebar {
     display: flex;
     position: static;
-    height: 100vh;
+    height:100%;
     width: 100%;
     z-index: auto;
+    
   }
 
   .sidebar.show-sidebar {
     display: flex;
+    
   }
 }

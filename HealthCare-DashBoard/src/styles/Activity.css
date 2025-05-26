@@ -137,9 +137,10 @@
 
 @media (min-width: 1024px) {
   .activity-area {
+    display: flex;
     width: 85%;
     margin: auto;
-    margin-top: 0.7rem;
+    /* margin-top: 0.7rem; */
   }
   .activity-card{
   display: flex;
