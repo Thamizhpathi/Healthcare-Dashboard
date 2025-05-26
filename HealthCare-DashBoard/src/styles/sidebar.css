@@ -41,6 +41,10 @@
   color: #a8b0be;
   cursor: pointer;
 }
+.sidebar-nav-items:hover{
+  background-color:  #37349f;
+  border-radius: 15px;
+}
 .even {
   display: block;
 }
