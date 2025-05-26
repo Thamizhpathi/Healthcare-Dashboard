@@ -1,7 +1,7 @@
 import "../styles/DashboardMainContent.css";
 import { anatomicalStatus } from "../data/anatomicalStatus.js";
 import AnatomySection from "./AnatomySection.jsx";
-import HealthStatusCard from "./HEalthStatusCard.jsx";
+import HealthStatusCard from "./HealthStatusCard.jsx";
 
 const DashboardOverview = () => {
   return (
